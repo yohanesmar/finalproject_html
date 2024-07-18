@@ -1,0 +1,155 @@
+body {
+  background-color: black;
+  padding-top: 56px; /* Adjust for navbar height */
+}
+
+.footer {
+  background-color: orange;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+.navbar {
+  background-color: orange;
+}
+
+.navbar-brand, .nav-link {
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: whitesmoke !important; /* Change hover color */
+}
+
+.full-width-header {
+  width: 100%;
+  background: black;
+  color: orange;
+  text-align: center;
+  padding: 300px 0; /* Adjust header height */
+  border: none;
+}
+
+.btn-order-now {
+  background-color: orange;
+  color: black;
+  border: none;
+}
+
+.btn-order-now:hover {
+  background-color: black;
+  color: grey;
+}
+
+.jumbotron {
+  background-color: black;
+  color: orange;
+}
+
+.judulhome {
+  background-color: black;
+  color: orange;
+  padding: 20px;
+}
+
+.section-content {
+  padding: 50px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-bottom: 30px;
+  background-color: rgb(211, 205, 205); /* Light grey background */
+  border: none; /* Optional: removes the border */
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.todo-item .todo-text {
+  color: black;
+  flex: 1;
+  margin-right: 10px;
+  text-decoration: none; /* Remove underline */
+}
+
+.todo-item .delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+
+.todo-item .checkbox {
+  margin-right: 10px;
+}
+
+#portofolio-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-5 {
+  flex: 1 0 30%; /* Adjust width as needed */
+  margin-bottom: 20px; /* Space between cards */
+  display: all; /* Hide all by default */
+}
+
+.carousel-img {
+  height: 50vh; /* Set the height to 50% of the viewport height */
+  object-fit: cover;
+}
+
+.modal-content {
+  background-color: black;
+  color: white;
+}
+
+.table {
+  color: white; /* Table text color */
+}
+
+.table thead th {
+  background-color: orange;
+  color: black;
+  border: 1px solid white;
+}
+
+.table tbody td {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.table tbody tr:nth-child(even) td {
+  background-color: rgba(255, 165, 0, 0.5); /* Lighter orange for even rows */
+}
+
