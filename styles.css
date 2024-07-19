@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  padding-top: 56px; /* Adjust for navbar height */
+  padding-top: 56px; 
 }
 
 .footer {
@@ -28,7 +28,7 @@ body {
 }
 
 .nav-link:hover {
-  color: whitesmoke !important; /* Change hover color */
+  color: whitesmoke !important; 
 }
 
 .full-width-header {
@@ -36,7 +36,7 @@ body {
   background: black;
   color: orange;
   text-align: center;
-  padding: 300px 0; /* Adjust header height */
+  padding: 300px 0; 
   border: none;
 }
 
@@ -73,8 +73,8 @@ body {
 
 .card {
   margin-bottom: 30px;
-  background-color: rgb(211, 205, 205); /* Light grey background */
-  border: none; /* Optional: removes the border */
+  background-color: rgb(211, 205, 205); 
+  border: none; 
 }
 
 .card img {
@@ -96,7 +96,7 @@ body {
   color: black;
   flex: 1;
   margin-right: 10px;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none; 
 }
 
 .todo-item .delete-btn {
@@ -118,13 +118,13 @@ body {
 }
 
 .col-md-5 {
-  flex: 1 0 30%; /* Adjust width as needed */
-  margin-bottom: 20px; /* Space between cards */
-  display: all; /* Hide all by default */
+  flex: 1 0 30%; 
+  margin-bottom: 20px; 
+  display: all; 
 }
 
 .carousel-img {
-  height: 50vh; /* Set the height to 50% of the viewport height */
+  height: 50vh;
   object-fit: cover;
 }
 
@@ -134,7 +134,7 @@ body {
 }
 
 .table {
-  color: white; /* Table text color */
+  color: white; 
 }
 
 .table thead th {
@@ -150,6 +150,6 @@ body {
 }
 
 .table tbody tr:nth-child(even) td {
-  background-color: rgba(255, 165, 0, 0.5); /* Lighter orange for even rows */
+  background-color: rgba(255, 165, 0, 0.5); 
 }
 
